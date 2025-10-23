@@ -1,0 +1,5 @@
+numpy
+joblib
+pydantic
+scikit-learn==1.6.1
+google-adk
