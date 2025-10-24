@@ -1,7 +1,7 @@
 # Box Predictor — ADK Agent (Optima)
 
 This repository is the **ADK (Google Gemini) agent** that wraps the trained **Optima** model for **box-packing prediction**. 
-It keeps your original source **structure unchanged** and adds only documentation and placeholders so others can run it immediately.
+
 
 ## What it does
 - Accepts **natural-language prompts** (via Google ADK → Gemini).
