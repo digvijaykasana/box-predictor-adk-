@@ -1,11 +1,11 @@
 
-# 📦 Box Predictor (Python Package)
+# Box Predictor (Python Package)
 
 This project provides a self-contained Python module for predicting how many boxes of each dimension are required for a given order. It uses a fine‑tuned **Optuna Random Forest** model and supports integration with **Google’s ADK Agent framework** for LLM-based automation.
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 - Accepts category‑wise product quantities as input.  
 - Builds a structured feature vector (with total, average, and max quantities).  
@@ -14,7 +14,7 @@ This project provides a self-contained Python module for predicting how many box
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 box_predictor/
@@ -32,7 +32,7 @@ box_predictor/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone or extract the folder**
    ```bash
@@ -60,7 +60,7 @@ box_predictor/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### 1. Direct Python Use
 ```python
@@ -95,7 +95,7 @@ print(result)
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 1. **Feature Construction**
    - Builds total, average, and maximum quantity features.
@@ -113,7 +113,7 @@ print(result)
 
 ---
 
-## 🧾 Requirements
+## Requirements
 
 ```
 numpy
@@ -126,7 +126,7 @@ Add `python-dotenv` if you use `.env` for configuration.
 
 ---
 
-## 🔧 Customization
+## Customization
 
 - **Retrain Model:** You can fine-tune or replace the existing model by saving a new `.pkl` file with the same feature order.
 - **Modify Features:** Edit `utils.py` to include or remove product categories.
@@ -134,7 +134,7 @@ Add `python-dotenv` if you use `.env` for configuration.
 
 ---
 
-## 🧠 Model Source
+## Model Source
 
 The fine‑tuned Optuna Random Forest model used here can be downloaded from the  
 **[`box-prediction-notebook`](https://github.com/yourusername/box-prediction-notebook)** repository.  
@@ -142,7 +142,7 @@ That repo contains the full Jupyter training notebook and parameter search setup
 
 ---
 
-## 🧭 Quick Start Summary
+## Quick Start Summary
 
 ```bash
 # 1. Setup
